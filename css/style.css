@@ -124,7 +124,7 @@ body{
 }
 
 .navbar a{
-  color:#0A67B0;
+  color:#0a67b0;
   text-decoration:none;
 }
 
@@ -138,12 +138,26 @@ body{
 
 
 #showcase{
-  background-image:url('../images/showcase.jpeg');
-  background-position:center;
-  min-height:600px;
+
+  position:relative;
+  height: 600px;
   margin-top:60px;
   width:100%;
   align-content: center;
+}
+
+#showcase::before{
+  content:"";
+  background-image:url('../images/showcase.jpeg');
+  background-position:center;
+  background-size:cover;
+  opacity:0.65;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+
 }
 
 .showcasetxt{
@@ -158,11 +172,13 @@ body{
   font-family:Georgia, 'Times New Roman', serif;
   line-height:1.6em;
   text-align:center;
+  position:relative;
 }
 
 .showcasebutton{
   text-align: center;
   margin-top:100px;
+  position:relative;
 }
 
 
