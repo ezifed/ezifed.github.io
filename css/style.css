@@ -17,6 +17,7 @@ body{
   height:60px;
   background-color:#fff;
   text-align:center;
+  z-index:1;
 }
 
 
@@ -138,7 +139,6 @@ body{
 
 
 #showcase{
-
   position:relative;
   height: 600px;
   margin-top:60px;
@@ -157,6 +157,7 @@ body{
   right:0px;
   bottom:0px;
   left:0px;
+  z-index:-1;
 
 }
 
