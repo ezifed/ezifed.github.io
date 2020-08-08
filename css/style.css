@@ -1,6 +1,5 @@
 body{
   background-color:#fff;
-  color:#555;
   font-family:Arial, Helvetica, sans-serif;
   font-size:16px;
   line-height:1em;
@@ -17,7 +16,7 @@ body{
   height:60px;
   background-color:#fff;
   text-align:center;
-  z-index:1;
+  z-index:100;
 }
 
 
@@ -292,17 +291,133 @@ body{
 }
 
 
-/*--css for contactus--*/
+/*--css for other pages--*/
 
-.strip{
-  background-color:#fff;
-  margin-top:60px;
-  height:200px;
+#strip-about{
+  margin:60px 20px 30px 20px;
+  height:300px;
   font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+#strip-about::before{
+  content:"";
+  background-image: url('../images/about.jpg');
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  opacity:0.2;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+
+#strip-contactus{
+  margin:60px 20px 30px 20px;
+  height:300px;
+  font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+#strip-contactus::before{
+  content:"";
+  background-image: url('../images/contactus.jpg');
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  opacity:0.2;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+#strip-practicearea{
+  margin:60px 20px 30px 20px;
+  height:300px;
+  font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+#strip-practicearea::before{
+  content:"";
+  background-image: url('../images/practicearea.jpg');
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  opacity:0.2;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+
+#strip-news{
+  margin:60px 20px 30px 20px;
+  height:300px;
+  font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+#strip-news::before{
+  content:"";
+  background-image: url('../images/news.jpeg');
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  opacity:0.2;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+#strip-ourppl{
+  margin:60px 20px 30px 20px;
+  height:300px;
+  font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+#strip-ourppl::before{
+  content:"";
+  background-image: url('../images/ourppl.jpg');
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  opacity:0.2;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+#strip-career{
+  margin:60px 20px 30px 20px;
+  height:300px;
+  font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+#strip-career::before{
+  content:"";
+  background-image: url('../images/career.jpg');
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  opacity:0.2;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
 }
 
 .strip-title{
-  padding-top:50px;
+  position:absolute;
+  bottom:50px;
 }
 
 .strip-title h1{
@@ -322,6 +437,7 @@ body{
   font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
   font-size:18px;
   line-height: 30px;
+  color:#fff;
 }
 
 .my-form .form-group{
@@ -356,14 +472,31 @@ body{
 
 #strip-main{
   position:relative;
-  margin:0px 20px;
-  background-color:#CCDAE4;
-  min-height:600px;
+  margin:0px 20px 30px 20px;
+  background-color:#000000;
+  min-height:1000px;
 }
 
 
 .container-box{
   width:600px;
   position:absolute;
+}
 
+.containertxt{
+  padding:0px 20px;
+}
+
+
+.containertxt h1{
+  color:#fff;
+  font-weight:bold;
+  line-height:30px;
+}
+
+
+.containertxt p{
+  font-weight:normal;
+  color:#fff;
+  line-height:20px;
 }

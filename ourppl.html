@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome|CAL LLP</title>
+  <title>Our People|CAL LLP</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+
   <script src="js/index.js"></script>
+  <script src="js/slideshow.js"></script>
 </head>
 <body>
   <header class="header fix-me-header">
@@ -38,36 +41,106 @@
 
   <div class="clr"></div>
 
-
-  <section id="showcase">
+  <section id="strip-ourppl">
     <div class="container">
-      <div class="showcasetxt">
-        <h1>Founded in 2020, CAL Specializes in Intellectual Property Law and Commercial  Transaction and Litigation
-        </h1>
-      </div>
-      <div class="showcasebutton">
-      <a class="button" href="#">Learn More</a>
+      <div class="strip-title">
+        <h1>Our Attorneys</h1>
       </div>
     </div>
-
   </section>
 
   <div class="clr"></div>
 
-  <div id="main">
-    <section class="container">
-      <h1 class="main-title">Our Story</h1>
-      <br>
-      <div class="main-content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque a magni officiis velit placeat explicabo ad qui quidem consectetur sequi! Ipsam alias facilis similique quos, voluptates vitae harum praesentium provident!
-        </p>
-        <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus vitae architecto maxime molestiae, a quisquam, deleniti hic impedit, repellat quibusdam corporis! Ab exercitationem, recusandae iste suscipit aspernatur praesentium assumenda architecto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatem ab, voluptates reiciendis optio rem, natus possimus consequatur nisi pariatur vel at eius minus quos quidem, autem porro rerum provident.</p>
+  <section id="strip-main">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="slideshow-content">
+          <div class="slideshow-image">
+            <img src="images/rick.png" style="width:100%">
+            <div class="text">
+              <h1>Rick Sanchez</h1>
+              <h2>Tel: 123-456-7890</h2>
+              <h2>Email: rsanchez@calllp.com</h2>
+            </div>
+          </div>
+
+          <div class="slideshow-text">
+            <h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum nihil sequi unde minima, quibusdam pariatur nulla officia qui sit libero itaque quam reprehenderit mollitia voluptatem rerum harum culpa nisi.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut laudantium voluptatem soluta alias odit asperiores esse dolor, vero libero ducimus accusantium illo illum fuga ipsum dolorum, similique nobis sit.
+            </p>
+
+          </div>
+        </div>
       </div>
-    </section>
-  </div>
+      
+      <div class="mySlides fade">
+        <div class="slideshow-image">
+          <img src="images/morty.png" style="width:100%">
+          <div class="text">
+            <h1>Morty Sanchez</h1>
+            <h2>Tel: 123-456-7890</h2>
+            <h2>Email: rsanchez@calllp.com</h2>
+          </div>
+        </div>
+
+        <div class="slideshow-text">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum nihil sequi unde minima, quibusdam pariatur nulla officia qui sit libero itaque quam reprehenderit mollitia voluptatem rerum harum culpa nisi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut laudantium voluptatem soluta alias odit asperiores esse dolor, vero libero ducimus accusantium illo illum fuga ipsum dolorum, similique nobis sit.
+          </p>
+
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="slideshow-image">
+          <img src="images/doggie.png" style="width:100%">
+          <div class="text">
+            <h1>Snowball Sanchez</h1>
+            <h2>Tel: 123-456-7890</h2>
+            <h2>Email: rsanchez@calllp.com</h2>
+          </div>
+        </div>
+
+        <div class="slideshow-text">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum nihil sequi unde minima, quibusdam pariatur nulla officia qui sit libero itaque quam reprehenderit mollitia voluptatem rerum harum culpa nisi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut laudantium voluptatem soluta alias odit asperiores esse dolor, vero libero ducimus accusantium illo illum fuga ipsum dolorum, similique nobis sit.
+          </p>
+
+        </div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+  </section>
 
   <div class="clr"></div>
 
