@@ -297,21 +297,21 @@ body{
 .strip{
   background-color:#fff;
   margin-top:60px;
-  height:120px;
+  height:200px;
   font-family:palatino linotype, Georgia, 'Times New Roman', Times, serif;
 }
 
 .strip-title{
-  vertical-align: center;
   padding-top:50px;
 }
 
 .strip-title h1{
-  text-align:center;
+  text-align:left;
+  vertical-align: bottom;
   position:relative;
   color:#0A67B0;
   padding-top:20px;
-  font-size:50px;
+  font-size:40px;
   margin:0px;
   padding:0px;
 }
@@ -351,4 +351,19 @@ body{
 .fix-me-header{
   position:fixed;
   top:0px;
+}
+
+
+#strip-main{
+  position:relative;
+  margin:0px 20px;
+  background-color:#CCDAE4;
+  min-height:600px;
+}
+
+
+.container-box{
+  width:600px;
+  position:absolute;
+
 }
