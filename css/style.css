@@ -14,7 +14,13 @@ body{
 .header{
   width:100%;
   height:60px;
+  /*
   background-color:#fff;
+  */
+  /* Christmas theme*/
+  
+  background-color:#3B7722;
+  
   text-align:center;
   z-index:100;
 }
@@ -47,21 +53,30 @@ body{
   padding:0px;
   font-weight:normal;
   font-style:italic;
-  background-color:#fff;
+  /*background-color:#fff;
+  /* Christmas theme*/
+  
+  background-color:#3B7722;
   font-family:Georgia, serif;
 }
 
 .header-logo ul a{
   text-decoration:none;
-  color:#0A67B0;
+  /*color:#0A67B0;
+  /* Christmas theme*/
+  color:#d3635b;
 }
 
 .header-logo ul a:hover{
-  color:#0A67B0;
+  /*color:#0A67B0;
+  /* Christmas theme*/
+  color:#d3635b;
 }
 
 .header-logo ul a:active{
-  color:#0A67B0;
+  /*color:#0A67B0;
+  /* Christmas theme*/
+  color:#d3635b;
 }
 
 
@@ -101,7 +116,11 @@ body{
 }
 
 .navbar{
-  background-color:#fff;
+  /*background-color:#fff;
+
+  /* Christmas theme*/
+  
+  background-color:#3B7722;
   display:inline-block;
   margin:0px;
   padding:0px;
@@ -124,16 +143,22 @@ body{
 }
 
 .navbar a{
-  color:#0a67b0;
+  /*color:#0A67B0;
+  /* Christmas theme*/
+  color:#d3635b;
   text-decoration:none;
 }
 
 .navbar a:hover{
-  color:#6DA9D8;
+  /*color:#6DA9D8;
+  /* Christmas theme*/
+  color:#F18D85;
 }
 
 .navbar a:active{
-  color:#6DA9D8;
+  /*color:#6DA9D8;
+  /* Christmas theme*/
+  color:#F18D85;
 }
 
 
@@ -167,7 +192,9 @@ body{
 }
 
 .showcasetxt h1{
-  color:#0A67B0;
+  /*color:#0A67B0;
+  /* Christmas theme*/
+  color:#d3635b;
   font-size:30px;
   font-family:Georgia, 'Times New Roman', serif;
   line-height:1.6em;
@@ -184,8 +211,13 @@ body{
 
 .button{
   border:none;
-  background-color:#0A67B0;
-  color:#fff;
+  /*background-color:#0A67B0;
+  /* Christmas theme*/
+  
+  background-color:#3B7722;
+  /*color:#fff;
+  /* Christmas theme*/
+  color:#F18D85;
   padding:10px 15px;
   text-align:center;
   font-weight:bold;
@@ -217,7 +249,9 @@ body{
 }
 
 #main-footer{
-  background:#0A67B0;
+  /*background-color:#0A67B0;
+  /* Christmas theme*/
+  background:#3B7722;
   margin-bottom:40px;
   height:200px;
 }
@@ -424,7 +458,9 @@ body{
   text-align:left;
   vertical-align: bottom;
   position:relative;
-  color:#0A67B0;
+  /*color:#0A67B0;
+  /* Christmas theme*/
+  color:#d3635b;
   padding-top:20px;
   font-size:40px;
   margin:0px;
@@ -473,7 +509,9 @@ body{
 #strip-main{
   position:relative;
   margin:0px 20px 30px 20px;
-  background-color:#000000;
+  /*background-color:#000000;
+  /* Christmas theme*/
+  background:#3B7722;
   min-height:1000px;
 }
 
