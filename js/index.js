@@ -7,3 +7,8 @@ function navmenubar(){
     x.className = "menubar";
   }
 }
+
+function time(){
+  var d = new Date();
+  document.getElementById("time") = d;
+}
